@@ -23,7 +23,7 @@ ul,li{
 main{
     display: flex;
     height: 100%;
-    min-width: 75%;
+    min-width: 50%;
     flex-direction: row;
     border: 5px black solid;
     margin: 10%;
