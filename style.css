@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+}
+nav{
+display:flex;
+flex-direction: row-reverse;
+justify-content:space-around;
+align-items: center;
+height: 20px;
+width: 100%;
+background-color: black;
+color: greenyellow;
+word-spacing: 10px;
+
+}
+ul,li{
+    display:flex;
+    flex-direction:flex-end;
+    justify-content:space-around;
+}
+
+/* MAIN GAME*/
+main{
+    display: flex;
+    height: 100%;
+    min-width: 75%;
+    flex-direction: row;
+    border: 5px black solid;
+    margin: 10%;
+    justify-content: flex-start;
+    background-color: rgb(240, 228, 213) ;
+    align-items: center;
+    padding: 5%;
+}
+
+.mychoice{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    word-spacing: 10px;
+}
+.stone{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+    border:2px black solid;
+}
+.paper{
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+    border:2px black solid;
+}
+.scissor{
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+    border:2px black solid;
+}
