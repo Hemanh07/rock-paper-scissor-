@@ -51,15 +51,15 @@ main{
 }
 .stone:hover{
 
-font-size: 10px;
+font-size: 30px;
 background-color:rgb(188, 156, 143);
 }
 .paper:hover{
-    font-size: 10px;
+    font-size: 30px;
     background-color:rgb(188, 156, 143);    
 }
 .scissor:hover{
-    font-size: 10px;
+    font-size: 30px;
     background-color:rgb(188, 156, 143);
 }
 .paper{
