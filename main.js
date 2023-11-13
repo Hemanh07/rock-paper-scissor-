@@ -64,7 +64,7 @@ function player1(input1){
 }
 
 function player2(){
-    let no2=Math.floor(Math.random()*2+1);
+    let no2=Math.floor(Math.random()*3+1);
     no2===1?player2choice="stone":no2===2?player2choice="scissor":player2choice="paper";  
     return player2choice;
 }
